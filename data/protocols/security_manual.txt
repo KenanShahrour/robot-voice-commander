@@ -1,0 +1,20 @@
+MICROPOLIS ROBOTICS - FIELD OPERATIONS MANUAL (REV 2025)
+
+SECTION 1: M-PATROL UNIT DEPLOYMENT
+1.1. BATTERY PROTOCOLS
+   - Critical Threshold: If an M-Patrol unit battery drops below 15%, it automatically enters "Preservation Mode."
+   - Preservation Mode Actions: The unit will disable non-essential sensors (LiDAR secondary stream, decorative LEDs) and route directly to the nearest Charging Dock.
+   - Operator Override: A Field Officer can override Preservation Mode using the command code "OVERRIDE-BAT-99", but this voids the warranty.
+
+1.2. INTERACTION WITH CIVILIANS
+   - Distance Maintenance: Units must maintain a minimum distance of 1.5 meters from pedestrians.
+   - Escalation: If a civilian obstructs the unit for >30 seconds, the unit will emit Audio Warning A ("Please step away from the security vehicle").
+   - Hostility: If physical impact is detected, the unit locks wheels, activates the 360-degree camera buffer, and silent-alarms HQ.
+
+SECTION 2: MAINTENANCE & TROUBLESHOOTING
+2.1. LIDAR OBSTRUCTION
+   - Error Code E-404: Indicates dust or sand on the primary LiDAR.
+   - Resolution: Field Officer must engage the "Self-Clean" cycle (air burst). If that fails, manual wipe with microfiber cloth is required.
+
+2.2. CONNECTIVITY LOSS
+   - In the event of 5G loss, the unit switches to Mesh Network Mode, hopping signals via nearby M-Patrol units to reach the Microspot Gateway.

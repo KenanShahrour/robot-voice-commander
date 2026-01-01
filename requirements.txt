@@ -1,0 +1,17 @@
+# core AI libraries
+ollama
+langchain
+langchain-community
+qdrant-client
+
+# Audio processing
+faster-whisper
+sounddevice
+numpy
+edge-tts # better than oyttsx3 in latency 
+pydub  # Audio manipulation
+
+# utilities
+pypdf2 # maual reading of pdfs
+python-dotenv
+colorama
